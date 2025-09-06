@@ -1,3 +1,6 @@
+<img width="1057" height="376" alt="Dominoz-small" src="https://github.com/user-attachments/assets/2389e413-81e5-4d77-aebb-a0f0d6cf2ffc" />
+
+
 # Dominoz
 
 Dominoz is a simple Python-based Dominoes game consisting of a **server** and a **client**. It allows multiple players to connect, create lobbies, chat, and play Dominoes in ASCII format (also called CLI).
