@@ -85,17 +85,18 @@ python client.py
 ## System Requirements
 
 * **Minimum**: 
-CPU: Any 32 bit or 64 bit cpu that can run a os that python supports.
-RAM: Atleast ~16 mb of free ram.
-GPU: Your system's minimum. 
-Storage: Atleast ~50kb free for the python files and atleast ~7mb for the .exe
-Python 3.1*.*
+- CPU: Any 32 bit or 64 bit cpu that can run a os that python supports.
+- RAM: Atleast ~16 mb of free ram.
+- GPU: Your system's minimum. 
+- Storage: Atleast ~50kb free for the python files and atleast ~7mb for the .exe
+- Python 3.8.*
+
 * **Recommended**:
-CPU: I5 6th gen
-RAM: 4 gb ram
-GPU: Intel HD graphics
-Storage: 100mb recomended
-Latest python
+- CPU: I5 6th gen
+- RAM: 4 gb ram
+- GPU: Intel HD graphics
+- Storage: 100mb recomended
+- Latest python
 
 ---
 
