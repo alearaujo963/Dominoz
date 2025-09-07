@@ -84,10 +84,18 @@ python client.py
 
 ## System Requirements
 
-* **Minimum**: Turns on  (literally, the game will run on almost any device running python)
-* **Recommended**: Any modern PC, laptop, or even high-end smartphones
-
-> No special hardware required. Just a device capable of running Python 3.x.
+* **Minimum**: 
+CPU: Any 32 bit or 64 bit cpu that can run a os that python supports.
+RAM: Atleast ~16 mb of free ram.
+GPU: Your system's minimum. 
+Storage: Atleast ~50kb free for the python files and atleast ~7mb for the .exe
+Python 3.1*.*
+* **Recommended**:
+CPU: I5 6th gen
+RAM: 4 gb ram
+GPU: Intel HD graphics
+Storage: 100mb recomended
+Latest python
 
 ---
 
