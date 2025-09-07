@@ -1,4 +1,14 @@
 <img width="1057" height="376" alt="Dominoz-small" src="https://github.com/user-attachments/assets/2389e413-81e5-4d77-aebb-a0f0d6cf2ffc" />
+<p align="center"> 
+    <img src="https://img.shields.io/github/issues/Simonko-912/Dominoz" alt="Issues">
+    <img src="https://img.shields.io/github/forks/Simonko-912/Dominoz" alt="Forks">
+    <img src="https://img.shields.io/github/stars/Simonko-912/Dominoz" alt="Stars">
+    <img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License (GPLv3)">
+    <img src="https://img.shields.io/badge/version-1.0.1-blue" alt="Version">
+    <img src="https://img.shields.io/badge/contributors-0-orange" alt="Contributors">
+    <img src="https://img.shields.io/github/downloads/Simonko-912/Dominoz/total" alt="Downloads">
+    <img src="https://img.shields.io/badge/build-passing-brightgreen" alt="Build Status">
+</p>
 
 
 # Dominoz
