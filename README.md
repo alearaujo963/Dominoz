@@ -31,6 +31,9 @@ Dominoz is a simple Python-based Dominoes game consisting of a **server** and a 
 ---
 ## Server list
 - Propose servers on issues
+
+### Demo server:
+- 147.185.221.31:48067
 ## Installation
 
 1. Clone the repository:
