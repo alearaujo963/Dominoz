@@ -8,6 +8,7 @@
     <img src="https://img.shields.io/badge/contributors-0-orange" alt="Contributors">
     <img src="https://img.shields.io/github/downloads/Simonko-912/Dominoz/total" alt="Downloads">
     <img src="https://img.shields.io/badge/build-passing-brightgreen" alt="Build Status">
+    <img src="https://img.shields.io/badge/Servers-Proposals%20Welcome-blue" alt="Server Proposals">
 </p>
 
 
